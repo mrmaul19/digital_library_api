@@ -1,0 +1,18 @@
+basePath: /api/v1
+host: localhost:3000
+info:
+  contact:
+    email: your@email.com
+    name: Your Name
+  description: REST API untuk Digital Library dengan fitur autentikasi JWT dan manajemen
+    buku.
+  title: Digital Library API
+  version: "1.0"
+paths: {}
+securityDefinitions:
+  BearerAuth:
+    description: 'Masukkan token dengan format: Bearer {token}'
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
